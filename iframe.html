@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+
+
+    <!---custom CSS and JS-->
+    <link rel="stylesheet" href="styles_complete.min.css" type="text/css" charset="utf-8">
+
+    <link rel="stylesheet" href="woothemes-FlexSlider-83b3cae/flexslider.css" type="text/css" charset="utf-8">
+
+  <script src="woothemes-FlexSlider-83b3cae/jquery.flexslider-min.js"></script>
+
+</head>
+
+<body class="mini_slide" style="margin: 0px!important; overflow: hidden; background-color:#66CBE8;">
+
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+                <img src="images/slide1.jpg" />
+            </li>
+            <li>
+                <img src="images/slide2.jpg" />
+            </li>
+            <li>
+                <img src="images/slide3.jpg" />
+            </li>
+            <li>
+                <img src="images/slide4.jpg" />
+            </li>
+            <li>
+                <img src="images/slide5.jpg" />
+            </li>
+            <li>
+                <img src="images/slide6.jpg" />
+            </li>
+          </ul>
+        </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            $(window).load(function() {
+              $('.flexslider').flexslider({
+                animation: "slide"
+              });
+            });
+
+        });
+    </script>
+</body>
+</html>

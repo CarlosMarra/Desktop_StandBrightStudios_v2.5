@@ -1,0 +1,22 @@
+{
+  "name": "Desktop_SBS_v2",
+  "version": "0.0.0",
+  "authors": [
+    "Carlos Marra <cam27@dowling.edu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "polymer": "~1.0.8",
+    "bootstrap": "~3.3.5",
+    "jQuery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
