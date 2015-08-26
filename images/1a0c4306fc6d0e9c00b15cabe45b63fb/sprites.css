@@ -1,0 +1,70 @@
+.facebook, .twitter, .vimeo, .instagram, .tumblr, .production, .concept, .style, .storyboard, .standbrightstudios, .logo{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: 0 0;
+	width: 100px;
+	height: 100px;
+}
+
+.twitter{
+	background-position: -200px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.vimeo{
+	background-position: -400px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.instagram{
+	background-position: -300px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.tumblr{
+	background-position: -100px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.production{
+	background-position: 0 -100px ;
+	width: 500px;
+	height: 500px;
+}
+
+.concept{
+	background-position: -500px 0;
+	width: 500px;
+	height: 500px;
+}
+
+.style{
+	background-position: -950px 0;
+	width: 500px;
+	height: 500px;
+}
+
+.storyboard{
+	background-position: -1000.3333332538605px -500.3333332538605px ;
+	width: 500px;
+	height: 500px;
+}
+
+.standbrightstudios{
+	background-position: 0 -900.3333332538605px ;
+	width: 601px;
+	height: 100px;
+}
+
+.logo{
+	background-position: 0 -600px ;
+	width: 100px;
+	height: 100px;
+}
+

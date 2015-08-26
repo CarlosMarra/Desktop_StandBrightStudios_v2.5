@@ -230,20 +230,14 @@ Slides 3
 }
 
 .bordering {
-    width:80%;
+    width:70%;
     height:auto!important;
-    border-radius:8%;
-    -moz-border-radius:8%;
-    -webkit-border-radius:8%;
     margin:0 auto
 }
 
 .template_slide3_video {
     width:100%;
     height:auto!important;
-    border-radius:8%;
-    -moz-border-radius:8%;
-    -webkit-border-radius:8%
 }
 
 .template_slide3_information {
@@ -412,6 +406,10 @@ Contact
     font-size:1.3vw;
     color:#fff;
     width:100%
+}
+
+.external{
+    text-align: left!important
 }
 
 .template_contact_row {
